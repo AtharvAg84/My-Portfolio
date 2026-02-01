@@ -5,91 +5,97 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Atharv Agarwal - Computer Science student specializing in Data Science with 9.39 CGPA. Expert in full-stack development, molecular modeling, IoT systems, and machine learning. Experience with Python, Java, Kotlin, React, and bioinformatics." />
-  <meta name="keywords" content="Atharv Agarwal, Data Science, Full Stack Developer, Machine Learning, IoT, Molecular Modeling, Python, Java, Kotlin, React, Bioinformatics, VIT Chennai, Software Developer" />
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Atharv Agarwal - Computer Science student specializing in Data Science with 9.41 CGPA. Expert in full-stack development, molecular modeling, IoT systems, and machine learning. Experience with Python, Java, Kotlin, React, and bioinformatics." />
+  <meta name="keywords"
+    content="Atharv Agarwal, Data Science, Full Stack Developer, Machine Learning, IoT, Molecular Modeling, Python, Java, Kotlin, React, Bioinformatics, VIT Chennai, Software Developer, Five Angstrom, Quest Global" />
   <meta name="author" content="Atharv Agarwal" />
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Atharv Agarwal - Data Science & Full-Stack Developer Portfolio" />
+  <meta property="og:description"
+    content="9.41 CGPA CS student specializing in Data Science. Expert in molecular modeling, IoT, and full-stack development with patent recognition." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://atharvag.dev" />
+  <meta property="og:image" content="https://atharvag.dev/AtharvImage.jpg" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Atharv Agarwal - Data Science Portfolio" />
+  <meta name="twitter:description" content="9.41 CGPA CS student | Data Science | Molecular Modeling | IoT" />
+  <meta name="twitter:image" content="https://atharvag.dev/AtharvImage.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpg" href="AtharvImage.jpg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Icons -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- Stylesheets -->
   <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="canvas.css">
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 1, // Default for small screens
-      spaceBetween: 10,
-      loop: true,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      breakpoints: {
-        640: {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
-        768: {
-          slidesPerView: 3,
-          spaceBetween: 30,
-        },
-        1024: {
-          slidesPerView: 4,
-          spaceBetween: 40,
-        },
-      },
-    });
-  </script>
-  <link class="icon" rel="icon" type="image/jpg" href="header-1.webp" />
+  <link rel="stylesheet" href="canvas.css" />
 
   <title>Atharv Agarwal - Data Science & Full-Stack Developer Portfolio</title>
-
 </head>
 
 <body>
-  <span class="canvas-instruction"></span>
+  <!-- Animated Background Canvas -->
+  <canvas id="backgroundCanvas"></canvas>
+  <span class="canvas-instruction">Move your mouse to interact with particles</span>
 
+  <!-- Navigation -->
   <nav>
-
     <ul class="nav__links">
-      <li class="link"><a href="#nav__links">Home</a></li>
-      <li class="link"><a href="#process">Experience</a></li>
-      <li class="link"><a href="#projectd">Projects</a></li>
-      <li class="link"><a href="#skilld">Skills</a></li>
-      <li class="link"><a href="#reviewd">About</a></li>
+      <li class="link"><a href="#home">Home</a></li>
+      <li class="link"><a href="#experience">Experience</a></li>
+      <li class="link"><a href="#projects">Projects</a></li>
+      <li class="link"><a href="#skills">Skills</a></li>
+      <li class="link"><a href="#certifications">Certifications</a></li>
     </ul>
-    <right>
-
-      <button class="btn"><a href="#contactd" style="padding: 3px;">Contact</a></button>
-    </right>
+    <div class="nav__actions">
+      <button class="btn"><a href="#contact">Contact</a></button>
+    </div>
   </nav>
 
-  <header>
+  <!-- Hero Section -->
+  <header id="home">
     <div class="section__container header__container">
       <div class="header__image">
-        <img src="AtharvImage2.jpg" alt="header" />
-        <img src="AtharvImage.jpg" alt="header" />
+        <img src="AtharvImage2.jpg" alt="Atharv Agarwal - Professional Photo" />
+        <img src="AtharvImage.jpg" alt="Atharv Agarwal - Portrait" />
       </div>
       <div class="header__content">
         <div>
-          <p class="sub__header" style="color: aliceblue;">Hi, I am</p>
+          <p class="sub__header">Hi, I am</p>
           <h1>Atharv Agarwal</h1>
           <p class="section__subtitle">
-            Computer Science Engineering student specializing in <strong>Data Science</strong> with a <strong>9.39 CGPA</strong> and hands-on experience in:
+            Computer Science Engineering student specializing in <strong>Data Science</strong> with a <strong>9.41
+              CGPA</strong> and hands-on experience in:
             <br><br>
-            • <strong>Agentic full-stack development</strong><br>
-            • <strong>Data science & mobile application development</strong><br>
-            • <strong>Java, Python, Kotlin, JavaScript</strong><br>
-            • <strong>React, Node.js, Firebase, SQL</strong><br><br>
+            • <strong>Agentic full-stack development</strong> (React, Node.js, Next.js, Flask)<br>
+            • <strong>Molecular modeling & bioinformatics</strong> (120M+ compound database)<br>
+            • <strong>Mobile app development</strong> (Kotlin, Android, IoT systems)<br>
+            • <strong>Machine learning & NLP</strong> (TensorFlow, Hugging Face)<br>
+            • <strong>Database architecture</strong> (PostgreSQL, Firebase, Prisma ORM)<br><br>
 
-            Demonstrates leadership, strong problem-solving, patent recognition, and practical experience in <strong>agile development</strong>, <strong>API integration</strong>, and modern technologies. Currently working with <strong>Model Context Protocol (MCP)</strong>, molecular modeling, and bioinformatics applications.
+            Demonstrates leadership, problem-solving, <strong>patent recognition</strong>, and practical experience in
+            <strong>agile development</strong>, <strong>API integration</strong>, and cutting-edge technologies like
+            <strong>Model Context Protocol (MCP)</strong>.
           </p>
           <div class="action__btns">
-            <button class="btn"><a href="AtharvAg_Resume.pdf">Download Resume</a></button>
+            <button class="btn"><a href="AtharvAg_Resume.pdf" download>Download Resume</a></button>
             <div class="story">
               <div class="video__image">
-                <img src="AtharvImage.jpg" alt="story" />
+                <img src="AtharvImage.jpg" alt="Video introduction thumbnail" />
                 <span><i class="ri-play-fill"></i></span>
               </div>
               <span>Video Introduction</span>
@@ -100,346 +106,523 @@
     </div>
   </header>
 
-  <section id="process">
-    <div>
+  <!-- Experience Timeline -->
+  <section id="experience">
+    <div class="section__container">
       <center>
-        <h2 class="section__title">Professional Experience</h2>
+        <h2 class="section__title">Professional Experience & Achievements</h2>
         <p class="section__subtitle">
-          "Discover my professional journey where I've applied cutting-edge technologies in data science, molecular modeling, and full-stack development to solve real-world challenges. 🚀💡"</p>
+          My journey through cutting-edge data science, molecular modeling, and full-stack development, with recognition
+          from academic excellence to patent innovation.
+        </p>
       </center>
-    </div><br><br><br><br><br>
-    <center class="timeline" style="align-items: center;">
+    </div>
 
+    <div class="timeline">
+
+      <!-- Five Angstrom Internship -->
       <div class="timeline-content">
-        <div class="timeline-period">May 2025 – Jul 2025</div>
-        <div class="portfolio__card1">
-          <img src="datasci.webp" alt="Five Angstrom Data Science Intern" />
+        <div class="timeline-period">May - July 2025</div>
+        <div class="portfolio__card1 experience-card highlight-card">
+          <img src="datasci.webp" alt="Five Angstrom Data Science Internship" />
           <div class="portfolio__details1">
             <p class="portfolio__subtitle1">Data Science Intern - Five Angstrom LLP</p>
-            <p class="portfolio__title1">Built compound database with 120M+ records using SMILES, PubChem API, and MCP. Developed molecular visualization platform using Flask, React.js, and Hugging Face OMol25. Led ERP system development with RBAC, Next.js, Prisma ORM, and PostgreSQL.</p>
+            <p class="portfolio__title1">
+              Built molecular compound database with <strong>120M+ records</strong> using SMILES, PubChem API, and Model
+              Context Protocol (MCP). Developed visualization platform with Flask, React.js, and Hugging Face OMol25.
+              Led ERP system development with RBAC, Next.js, Prisma ORM, and PostgreSQL.
+            </p>
           </div>
         </div>
       </div>
 
+      <!-- Academic Excellence Award -->
       <div class="timeline-content">
-        <div class="timeline-period">Jun 2023 – Aug 2023</div>
-        <div class="portfolio__card1">
-          <img src="ctf.webp" alt="Quest Global Software Developer" />
+        <div class="timeline-period">April 2024</div>
+        <div class="portfolio__card1 experience-card highlight-card">
+          <img src="nexathon.webp" alt="Academic Excellence Award" />
+          <div class="portfolio__details1">
+            <p class="portfolio__subtitle1">🏆 Academic Excellence Award - VIT Chennai</p>
+            <p class="portfolio__title1">
+              Ranked <strong>2nd in CSE branch</strong> with <strong>9.79 CGPA</strong>, demonstrating exceptional
+              academic performance and technical proficiency across Data Science, Machine Learning, and Full-Stack
+              Development.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Design Patent -->
+      <div class="timeline-content">
+        <div class="timeline-period">October 2024</div>
+        <div class="portfolio__card1 experience-card highlight-card">
+          <img src="aws.webp" alt="Design Patent Achievement" />
+          <div class="portfolio__details1">
+            <p class="portfolio__subtitle1">📜 Design Patent - Lumi Dissect Light Pipe</p>
+            <p class="portfolio__title1">
+              Granted <strong>design patent</strong> for innovative surgical light pipe device used in vitrectomy
+              surgeries. Improves precision in medical procedures with commercial viability for global healthcare
+              impact.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quest Global Internship -->
+      <div class="timeline-content">
+        <div class="timeline-period">2023</div>
+        <div class="portfolio__card1 experience-card">
+          <img src="ctf.webp" alt="Quest Global Software Developer Intern" />
           <div class="portfolio__details1">
             <p class="portfolio__subtitle1">Software Developer Intern - Quest Global Technologies</p>
-            <p class="portfolio__title1">Analyzed crypto market trends with Python libraries. Built web apps using Java, Python, SQL. Worked on full-stack projects involving data cleaning, trend analysis, and financial tracking.</p>
+            <p class="portfolio__title1">
+              Analyzed crypto market trends with Python libraries. Built full-stack web apps using Java, Python, SQL.
+              Worked on data cleaning, trend analysis, and financial tracking systems.
+            </p>
           </div>
         </div>
       </div>
 
+      <!-- Biosphere Club -->
       <div class="timeline-content">
-        <div class="timeline-period">Aug 2024 – May 2025</div>
-        <div class="portfolio__card1">
+        <div class="timeline-period">2024-25</div>
+        <div class="portfolio__card1 experience-card">
           <img src="sih.webp" alt="Biosphere Club Event Coordinator" />
           <div class="portfolio__details1">
             <p class="portfolio__subtitle1">Event Coordinator - Biosphere Club, VIT</p>
-            <p class="portfolio__title1">Managed sustainability events & outreach programs. Organized Cap-tivate and Sustain-Ai-Thon events, promoting environmental awareness and sustainable technology solutions.</p>
+            <p class="portfolio__title1">
+              Managed sustainability events & outreach programs. Organized Cap-tivate and Sustain-Ai-Thon, promoting
+              environmental awareness and sustainable technology solutions.
+            </p>
           </div>
         </div>
       </div>
 
+      <!-- Zero Bugs Club -->
       <div class="timeline-content">
-        <div class="timeline-period">Feb 2024 – Jul 2024</div>
-        <div class="portfolio__card1">
-          <img src="sap.webp" alt="Zero Bugs Club Marketing" />
+        <div class="timeline-period">2024</div>
+        <div class="portfolio__card1 experience-card">
+          <img src="sap.webp" alt="Zero Bugs Club Marketing Team" />
           <div class="portfolio__details1">
             <p class="portfolio__subtitle1">Marketing Team - Zero Bugs Club</p>
-            <p class="portfolio__title1">Promoted tech events and collaborated with club projects. Enhanced marketing strategies for programming competitions and technical workshops.</p>
+            <p class="portfolio__title1">
+              Promoted tech events and collaborated on club projects. Enhanced marketing strategies for programming
+              competitions and technical workshops.
+            </p>
           </div>
         </div>
       </div>
 
-      <div class="timeline-content">
-        <div class="timeline-period">Apr 2024</div>
-        <div class="portfolio__card1">
-          <img src="nexathon.webp" alt="Academic Excellence Award" />
-          <div class="portfolio__details1">
-            <p class="portfolio__subtitle1">Academic Excellence Award - VIT</p>
-            <p class="portfolio__title1">Ranked 2nd in CSE branch with 9.79 CGPA, demonstrating exceptional academic performance and technical proficiency.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="timeline-content">
-        <div class="timeline-period">Oct 2024</div>
-        <div class="portfolio__card1">
-          <img src="aws.webp" alt="Patent Achievement" />
-          <div class="portfolio__details1">
-            <p class="portfolio__subtitle1">Design Patent - Lumi Dissect Light Pipe</p>
-            <p class="portfolio__title1">Patent granted for surgical light pipe device used in vitrectomy surgeries, improving precision in medical procedures and contributing to global healthcare systems.</p>
-          </div>
-        </div>
-      </div>
+    </div>
   </section>
 
-  <section class="projects" id="projectd">
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
     <div class="section__container projects__container">
-      <h2 class="section__title">Projects</h2>
+      <h2 class="section__title">Featured Projects</h2>
       <p class="section__subtitle">
-        Discover how I combine creativity and technical expertise to build innovative solutions! My portfolio showcases
-        projects that turn ideas into reality. 🚀✨
+        Innovative solutions combining data science, molecular modeling, IoT, and full-stack development to solve
+        real-world challenges.
       </p>
+
       <div class="projects__grid">
-        <!-- Project 1: Smart House Energy Optimization -->
-        <div class="projects__card" style="border-radius: 2rem;">
+
+        <!-- Project 1: Molecular Compound Database -->
+        <div class="projects__card">
+          <img src="notes.png" alt="Molecular Compound Database" />
+          <div class="projects__details">
+            <p class="projects__title">Molecular Compound Database</p>
+            <p class="projects__description">
+              Engineered scalable database with <strong>120M+ molecular records</strong> using SMILES notation, PubChem
+              API, and Model Context Protocol. Built visualization platform with Flask, React.js, and Hugging Face
+              OMol25 for bioinformatics research.
+            </p>
+            <div class="rating">Impact - <i class="ri-star-fill"></i> 5.0</div>
+            <div class="projects__price">
+              <div class="price">Flask • React.js • Hugging Face • PubChem API • MCP</div>
+              <button class="btn">View Project</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Smart House IoT System -->
+        <div class="projects__card">
           <img src="attendanceWebApp.png" alt="Smart House IoT System" />
           <div class="projects__details">
             <p class="projects__title">Smart House IoT System</p>
             <p class="projects__description">
-              IoT automation system for appliances using Wi-Fi/Bluetooth with real-time computer vision for energy tracking. Features visual dashboards for energy analytics and improved efficiency by 20%. Managed 50–100 daily interactions with reduced latency by 20%.
-            </p><br /><br />
+              IoT automation system for appliances using Wi-Fi/Bluetooth with real-time computer vision for energy
+              tracking. Features visual dashboards for energy analytics. <strong>Improved efficiency by 20%</strong>.
+              Managed 50-100 daily interactions with <strong>20% reduced latency</strong>.
+            </p>
             <div class="rating">Difficulty - <i class="ri-star-fill"></i> 4.9</div>
             <div class="projects__price">
-              <div class="price">Technologies: Kotlin, Android Studio, OpenCV, IoT, Deep Learning</div>
-              <a href="#"><button class="btn">View Project</button></a>
+              <div class="price">Kotlin • Android Studio • OpenCV • IoT • Deep Learning</div>
+              <button class="btn">View Project</button>
             </div>
           </div>
         </div>
 
-        <!-- Project 2: ElderEase FD -->
-        <div class="projects__card" style="border-radius: 2rem;">
-          <img src="chatApp.png" alt="ElderEase FD" />
-          <div class="projects__details">
-            <p class="projects__title">ElderEase FD — Senior Citizens Financial Tool</p>
-            <p class="projects__description">
-              Real-time FD rate comparison using web scraping with personalized chatbot using NLP for financial advice. Features predictive ML models for investment decisions tailored for senior citizens.
-            </p><br /><br /><br />
-            <div class="rating">Difficulty - <i class="ri-star-fill"></i> 4.6</div>
-            <div class="projects__price">
-              <div class="price">Technologies: Python, BeautifulSoup, NLP, Machine Learning</div>
-              <a href="#"><button class="btn">View Project</button></a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 3: Smart Navigation Application -->
-        <div class="projects__card" style="border-radius: 2rem;">
-          <img src="service.png" alt="Smart Navigation App" />
-          <div class="projects__details">
-            <p class="projects__title">Smart Navigation Application</p>
-            <p class="projects__description">
-              3D mobile navigation app using Dijkstra and BFS algorithms, improving pathfinding speed by 30%. Integrated Firebase Firestore for live train data and emergency services with real-time notifications.
-            </p><br /><br /><br /><br />
-            <div class="rating">Difficulty - <i class="ri-star-fill"></i> 4.7</div>
-            <div class="projects__price">
-              <div class="price">Technologies: Kotlin, Android Studio, Firebase, Google Maps API</div>
-              <a href="#"><button class="btn">View Project</button></a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 4: Ultimate Manager -->
-        <div class="projects__card" style="border-radius: 2rem;">
-          <img src="canvas.png" alt="Ultimate Manager" />
-          <div class="projects__details">
-            <p class="projects__title">The Ultimate Manager — Enterprise DB Solution</p>
-            <p class="projects__description">
-              Secure, scalable multi-user database management system with authentication, RBAC, and encrypted passwords. Features GUI frontend with MySQL backend, reducing manual efforts by 40% and supporting 20+ users.
-            </p><br /><br />
-            <div class="rating">Difficulty - <i class="ri-star-fill"></i> 4.3</div>
-            <div class="projects__price">
-              <div class="price">Technologies: Python, SQL, MySQL</div>
-              <a href="#"><button class="btn">View Project</button></a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 5: Compound Database System -->
-        <div class="projects__card" style="border-radius: 2rem;">
-          <img src="notes.png" alt="Compound Database" />
-          <div class="projects__details">
-            <p class="projects__title">Molecular Compound Database</p>
-            <p class="projects__description">
-              Built compound database with 120M+ molecular records using SMILES, PubChem API, and MCP. Developed molecular visualization platform using Flask, React.js, and Hugging Face OMol25 for bioinformatics research.
-            </p><br /><br /><br />
-            <div class="rating">Difficulty - <i class="ri-star-fill"></i> 4.8</div>
-            <div class="projects__price">
-              <div class="price">Technologies: Flask, React.js, Hugging Face, PubChem API, MCP</div>
-              <a href="#"><button class="btn">View Project</button></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="projects__card" style="border-radius: 2rem;">
+        <!-- Project 3: Protein Structure Explorer -->
+        <div class="projects__card">
           <img src="shopping.png" alt="Protein Structure Explorer" />
           <div class="projects__details">
             <p class="projects__title">Protein Structure Exploration Tool</p>
             <p class="projects__description">
-              Created protein structure exploration tool using RCSB PDB API, Biopython, and React 3D visualizations. Features interactive molecular modeling and structural analysis capabilities for research applications.
+              Created protein structure exploration tool using RCSB PDB API, Biopython, and React 3D visualizations.
+              Features interactive molecular modeling and structural analysis capabilities for research applications.
             </p>
-            <div class="rating">Difficulty - <i class="ri-star-fill"></i> 4.5</div>
+            <div class="rating">Difficulty - <i class="ri-star-fill"></i> 4.8</div>
             <div class="projects__price">
-              <div class="price">Technologies: RCSB PDB API, Biopython, React 3D, Express.js</div>
-              <a href="#"><button class="btn">View Project</button></a>
+              <div class="price">RCSB PDB API • Biopython • React 3D • Express.js</div>
+              <button class="btn">View Project</button>
             </div>
           </div>
         </div>
+
+        <!-- Project 4: Smart Navigation App -->
+        <div class="projects__card">
+          <img src="service.png" alt="Smart Navigation Application" />
+          <div class="projects__details">
+            <p class="projects__title">Smart Navigation Application</p>
+            <p class="projects__description">
+              3D mobile navigation app using Dijkstra and BFS algorithms, <strong>improving pathfinding speed by
+                30%</strong>. Integrated Firebase Firestore for live train data and emergency services with real-time
+              notifications.
+            </p>
+            <div class="rating">Difficulty - <i class="ri-star-fill"></i> 4.7</div>
+            <div class="projects__price">
+              <div class="price">Kotlin • Android Studio • Firebase • Google Maps API</div>
+              <button class="btn">View Project</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5: ElderEase FD -->
+        <div class="projects__card">
+          <img src="chatApp.png" alt="ElderEase FD Financial Tool" />
+          <div class="projects__details">
+            <p class="projects__title">ElderEase FD — Senior Citizens Financial Tool</p>
+            <p class="projects__description">
+              Real-time FD rate comparison using web scraping with personalized chatbot using NLP for financial advice.
+              Features predictive ML models for investment decisions tailored for senior citizens.
+            </p>
+            <div class="rating">Difficulty - <i class="ri-star-fill"></i> 4.6</div>
+            <div class="projects__price">
+              <div class="price">Python • BeautifulSoup • NLP • Machine Learning</div>
+              <button class="btn">View Project</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6: Ultimate Manager -->
+        <div class="projects__card">
+          <img src="canvas.png" alt="Ultimate Manager Database System" />
+          <div class="projects__details">
+            <p class="projects__title">The Ultimate Manager — Enterprise DB Solution</p>
+            <p class="projects__description">
+              Secure, scalable multi-user database management system with authentication, RBAC, and encrypted passwords.
+              Features GUI frontend with MySQL backend, <strong>reducing manual efforts by 40%</strong> and supporting
+              20+ users.
+            </p>
+            <div class="rating">Difficulty - <i class="ri-star-fill"></i> 4.3</div>
+            <div class="projects__price">
+              <div class="price">Python • SQL • MySQL • GUI Development</div>
+              <button class="btn">View Project</button>
+            </div>
+          </div>
+        </div>
+
       </div>
+
       <div class="view__all">
-        <button class="btn">View All</button>
+        <button class="btn">View All Projects</button>
       </div>
     </div>
   </section>
 
-
-
-  <section class="section__container" id="skilld">
+  <!-- Skills Section -->
+  <section class="section__container" id="skills">
     <div class="section__container skills-container">
-      <div class="section__container">
-        <div>
-          <center>
-            <h2 class="section__title">Skills</h2>
-            <p class="section__subtitle">
-              A versatile set of technical skills empowers me to create innovative solutions. From crafting responsive
-              user interfaces to training AI models, I have the expertise to turn complex challenges into seamless
-              experiences. Explore the capabilities that define my work.🚀💡
-            </p>
-        </div>
+      <div>
+        <center>
+          <h2 class="section__title">Technical Expertise</h2>
+          <p class="section__subtitle">
+            A comprehensive skill set spanning full-stack development, data science, molecular modeling, and mobile
+            applications. From crafting responsive interfaces to training AI models and architecting scalable databases,
+            I bring end-to-end technical capabilities to solve complex challenges.
+          </p>
         </center>
-        <div class="portfolio__nav">
-          <span><i class="ri-arrow-left-s-line"></i></span>
-          <span><i class="ri-arrow-right-s-line"></i></span>
-        </div>
       </div>
+
       <div class="portfolio__grid">
 
+        <!-- Full-Stack Development -->
         <div class="portfolio__card1">
-          <img src="skillwd (1).webp" alt="portfolio" />
+          <img src="skillwd (1).webp" alt="Full-Stack Development" />
           <div class="portfolio__details1">
             <p class="portfolio__subtitle1">Full-Stack Development</p>
-            <p class="portfolio__title1">Expert in React.js, Node.js, Express.js, Next.js, Flask with hands-on experience building scalable web applications and enterprise solutions.</p>
+            <p class="portfolio__title1">
+              Expert in <strong>React.js, Node.js, Express.js, Next.js, Flask</strong> with hands-on experience building
+              scalable web applications, enterprise ERP systems, and API integrations.
+            </p>
           </div>
         </div>
+
+        <!-- Data Science & ML -->
         <div class="portfolio__card1">
-          <img src="skillml.webp" alt="portfolio" />
+          <img src="skillml.webp" alt="Data Science & Machine Learning" />
           <div class="portfolio__details1">
             <p class="portfolio__subtitle1">Data Science & Machine Learning</p>
-            <p class="portfolio__title1">Proficient in pandas, NumPy, Matplotlib, NLP, and ML model development with experience in molecular modeling and bioinformatics applications.</p>
-          </div>
-        </div>
-        <div class="portfolio__card1">
-          <img src="skill1.webp" alt="portfolio" />
-          <div class="portfolio__details1">
-            <p class="portfolio__subtitle1">Programming Languages</p>
-            <p class="portfolio__title1">Advanced proficiency in Java, C++, C, Python, SQL, Kotlin, JavaScript, TypeScript, HTML5, CSS3 for diverse application development.</p>
-          </div>
-        </div>
-        <div class="portfolio__card1">
-          <img src="skillag.webp" alt="portfolio" />
-          <div class="portfolio__details1">
-            <p class="portfolio__subtitle1">Mobile App Development</p>
-            <p class="portfolio__title1">Specialized in Kotlin and Android Studio for building IoT applications, navigation systems, and mobile solutions with Firebase integration.</p>
+            <p class="portfolio__title1">
+              Proficient in <strong>pandas, NumPy, Matplotlib, scikit-learn, TensorFlow, NLP</strong>. Experience with
+              predictive modeling, trend analysis, and ML model deployment.
+            </p>
           </div>
         </div>
 
+        <!-- Molecular Modeling & Bioinformatics -->
         <div class="portfolio__card1">
-          <img src="skilldb.webp" alt="portfolio" />
-          <div class="portfolio__details1">
-            <p class="portfolio__subtitle1">Database Systems</p>
-            <p class="portfolio__title1">Expert in SQLite, MySQL, PostgreSQL, Firebase, Supabase with experience in designing scalable database architectures and managing large datasets.</p>
-          </div>
-        </div>
-        <div class="portfolio__card1">
-          <img src="skilltb.webp" alt="portfolio" />
+          <img src="skilltb.webp" alt="Molecular Modeling & Bioinformatics" />
           <div class="portfolio__details1">
             <p class="portfolio__subtitle1">Molecular Modeling & Bioinformatics</p>
-            <p class="portfolio__title1">Specialized in Biopython, SMILES, PubChem API, RCSB PDB API for compound databases and protein structure analysis applications.</p>
-          </div>
-        </div>
-        <div class="portfolio__card1">
-          <img src="skillgt.webp" alt="portfolio" />
-          <div class="portfolio__details1">
-            <p class="portfolio__subtitle1">Cloud & API Integration</p>
-            <p class="portfolio__title1">Proficient in Firebase, Google Maps API, Weather API, Model Context Protocol (MCP) for building connected and scalable applications.</p>
+            <p class="portfolio__title1">
+              Specialized in <strong>Biopython, SMILES notation, PubChem API, RCSB PDB API</strong> for compound
+              databases and protein structure analysis applications.
+            </p>
           </div>
         </div>
 
+        <!-- Programming Languages -->
         <div class="portfolio__card1">
-          <img src="skillap.webp" alt="portfolio" />
+          <img src="skill1.webp" alt="Programming Languages" />
           <div class="portfolio__details1">
-            <p class="portfolio__subtitle1">IoT & Computer Vision</p>
-            <p class="portfolio__title1">Experience with OpenCV, Arduino, IoT protocols for building smart home automation systems and energy optimization solutions.</p>
+            <p class="portfolio__subtitle1">Programming Languages</p>
+            <p class="portfolio__title1">
+              Advanced proficiency in <strong>Java, C++, C, Python, SQL, Kotlin, JavaScript, TypeScript, HTML5,
+                CSS3</strong> for diverse application development.
+            </p>
           </div>
         </div>
+
+        <!-- Mobile App Development -->
+        <div class="portfolio__card1">
+          <img src="skillag.webp" alt="Mobile App Development" />
+          <div class="portfolio__details1">
+            <p class="portfolio__subtitle1">Mobile App Development</p>
+            <p class="portfolio__title1">
+              Specialized in <strong>Kotlin and Android Studio</strong> for building IoT applications, navigation
+              systems, and mobile solutions with Firebase integration.
+            </p>
+          </div>
+        </div>
+
+        <!-- Database Systems -->
+        <div class="portfolio__card1">
+          <img src="skilldb.webp" alt="Database Systems" />
+          <div class="portfolio__details1">
+            <p class="portfolio__subtitle1">Database Systems</p>
+            <p class="portfolio__title1">
+              Expert in <strong>SQLite, MySQL, PostgreSQL, Firebase, Supabase</strong> with experience designing
+              scalable database architectures and managing large datasets.
+            </p>
+          </div>
+        </div>
+
+        <!-- Cloud & API Integration -->
+        <div class="portfolio__card1">
+          <img src="skillgt.webp" alt="Cloud & API Integration" />
+          <div class="portfolio__details1">
+            <p class="portfolio__subtitle1">Cloud & API Integration</p>
+            <p class="portfolio__title1">
+              Proficient in <strong>Firebase, Google Maps API, Weather API, Model Context Protocol (MCP)</strong> for
+              building connected and scalable applications.
+            </p>
+          </div>
+        </div>
+
+        <!-- IoT & Computer Vision -->
+        <div class="portfolio__card1">
+          <img src="skillap.webp" alt="IoT & Computer Vision" />
+          <div class="portfolio__details1">
+            <p class="portfolio__subtitle1">IoT & Computer Vision</p>
+            <p class="portfolio__title1">
+              Experience with <strong>OpenCV, Arduino, IoT protocols</strong> for building smart home automation systems
+              and energy optimization solutions.
+            </p>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
 
-  <section class="gallary" id="reviewd">
+  <!-- Certifications Section -->
+  <section class="certifications" id="certifications">
+    <div class="section__container">
+      <center>
+        <h2 class="section__title">Professional Certifications</h2>
+        <p class="section__subtitle">
+          Industry-recognized certifications demonstrating expertise in cloud technologies, data science, and artificial
+          intelligence.
+        </p>
+      </center>
+
+      <div class="portfolio__grid" style="margin-top: 3rem;">
+
+        <!-- OCI Data Science Professional -->
+        <div class="portfolio__card1 certification-card">
+          <img src="aws.webp" alt="Oracle Cloud Infrastructure Certification" />
+          <div class="portfolio__details1">
+            <p class="portfolio__subtitle1">🏅 OCI 2025 Data Science Professional</p>
+            <p class="portfolio__title1">
+              Comprehensive certification covering the full machine learning lifecycle on Oracle Cloud — workspace
+              configuration, data preparation, model training, deployment, and MLOps best practices.
+            </p>
+            <a href="#" class="cert-link" target="_blank" rel="noopener noreferrer">
+              <button class="btn" style="margin-top: 1rem;">Verify Certificate</button>
+            </a>
+          </div>
+        </div>
+
+        <!-- OCI AI Foundations -->
+        <div class="portfolio__card1 certification-card">
+          <img src="datasci.webp" alt="Oracle AI Foundations Certification" />
+          <div class="portfolio__details1">
+            <p class="portfolio__subtitle1">🏅 OCI 2025 AI Foundations Associate</p>
+            <p class="portfolio__title1">
+              Foundational certification on AI and ML applications within OCI, focusing on Generative AI, LLMs, deep
+              learning architectures, and OCI AI Services for vision, speech, and document understanding.
+            </p>
+            <a href="#" class="cert-link" target="_blank" rel="noopener noreferrer">
+              <button class="btn" style="margin-top: 1rem;">Verify Certificate</button>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery/About Section -->
+  <section class="gallary" id="about">
     <div class="section__container gallary__container">
       <div class="image__gallary">
         <div class="gallary__col">
-          <img src="gallery-1.webp" alt="gallary" />
+          <img src="gallery-1.webp" alt="Atharv at tech event" />
         </div>
         <div class="gallary__col">
-          <img src="gallery-2.webp" alt="gallary" />
-          <img src="gallery-3.webp" alt="gallary" />
+          <img src="gallery-2.webp" alt="Atharv presenting project" />
+          <img src="gallery-3.webp" alt="Atharv with team" />
         </div>
+      </div>
+
+      <div class="gallary__content">
+        <div>
+          <h2 class="section__title">About Me</h2>
+          <p class="section__subtitle">
+            I'm passionate about leveraging technology to solve real-world challenges through data science, molecular
+            modeling, and full-stack development. With a <strong>9.41 CGPA</strong> and experience ranging from building
+            enterprise solutions to contributing to healthcare innovation through my <strong>patent work</strong>, I
+            thrive in environments where innovation meets impact.
+            <br><br>
+            Currently exploring cutting-edge technologies like <strong>Model Context Protocol (MCP)</strong>,
+            bioinformatics applications, and AI-powered systems. Always excited to collaborate on meaningful projects
+            that push the boundaries of what's possible.
+          </p>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section class="feedback" id="add_reviewd">
+  <!-- Feedback Section -->
+  <section class="feedback" id="feedback">
     <div class="section__container feedback__container">
       <div class="feedback__content">
         <h2 class="section__title">Your feedback matters!</h2>
         <p class="section__subtitle">
-          I’d love to hear your thoughts on my work—what you liked, what could be better, or any ideas for improvement.
-          🚀✨
+          I'd love to hear your thoughts on my work — what you liked, what could be better, or any ideas for
+          collaboration. Your insights help me grow and improve! 🚀✨
         </p>
       </div>
       <div class="feedback__form">
-        <form>
-          <input type="text" placeholder="Your feedback here" style="background-color: var(--clr);" />
-          <button class="btn" type="submit"><a href="thanks.html">Send</a></button>
+        <form id="feedbackForm" method="POST" action="thanks.html">
+          <input type="text" name="feedback" placeholder="Share your thoughts here..." required minlength="10"
+            aria-label="Feedback input" />
+          <button class="btn" type="submit">Send Feedback</button>
         </form>
       </div>
     </div>
   </section>
 
-  <footer class="footer" id="contactd">
+  <!-- Footer / Contact -->
+  <footer class="footer" id="contact">
     <div class="section__container footer__container">
-      <div class="footer__col">
 
-        <h3>Thanks for visiting my portfolio!<span>.</span></h3>
+      <!-- About Column -->
+      <div class="footer__col">
+        <h3>Thanks for visiting!<span>.</span></h3>
         <p>
-          <br />
-          I'm passionate about applying technology to real-world challenges through data science, molecular modeling, and full-stack development. With experience in building enterprise solutions and contributing to healthcare innovation through my patent work, I'm always excited to collaborate on meaningful projects. 🚀
-          <br />
-          📬 Let's connect and build something amazing together!<br />
-          Feel free to reach out on LinkedIn, explore my projects on GitHub, or challenge me on LeetCode. I'm always open to discussing new opportunities and innovative ideas! 💬
-          <br />
+          I'm passionate about applying technology to real-world challenges through data science, molecular modeling,
+          and full-stack development. With experience in building enterprise solutions and contributing to healthcare
+          innovation through my patent work, I'm always excited to collaborate on meaningful projects. 🚀
+          <br><br>
+          📬 Let's connect and build something amazing together!
+          <br>Feel free to reach out on LinkedIn, explore my projects on GitHub, or challenge me on LeetCode. I'm always
+          open to discussing new opportunities and innovative ideas! 💬
+          <br><br>
           🌟 Keep innovating, keep learning, and keep making an impact!
-          <br />Happy coding and see you soon! 💻✨
-        </p>
-      </div>
-      <div class="footer__col">
-        <h4>Socials</h4>
-        <br />
-        <p><img src="assets/icons/linkedin.svg" alt="linkedin"><a
-            href="https://www.linkedin.com/in/atharv-ag84/"><br />LinkedIn</a></p>
-        <p><img src="assets/icons/github.svg" alt="GitHub"><a href="https://github.com/AtharvAg84">GitHub</a></p>
-        <p><img src="assets/icons/ig.svg" alt="LeetCode"><a href="https://leetcode.com/u/Arth8484/">LeetCode</a>
+          <br>Happy coding! 💻✨
         </p>
       </div>
 
+      <!-- Social Links -->
       <div class="footer__col">
-        <h4>Contacts</h4>
-        <br />
+        <h4>Connect With Me</h4>
         <p>
-          <span>Address:</span> Deep Ganga,<br> Sidcul Haridwar, <br />Uttarakhand, India,
-          <!-- <span>Address:</span> Rosedale County,<br> Sundarpura Rd. Vadodara, <br />Gujarat, India (391243), -->
+          <img src="assets/icons/linkedin.svg" alt="LinkedIn icon" />
+          <a href="https://www.linkedin.com/in/atharv-ag84/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </p>
-        <p><span>Email:</span> ag.atharv84@gmail.com</p>
-        <p><span>Phone:</span> +91-9997070946</p>
+        <p>
+          <img src="assets/icons/github.svg" alt="GitHub icon" />
+          <a href="https://github.com/AtharvAg84" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </p>
+        <p>
+          <img src="assets/icons/ig.svg" alt="LeetCode icon" />
+          <a href="https://leetcode.com/u/Arth8484/" target="_blank" rel="noopener noreferrer">LeetCode</a>
+        </p>
+        <p>
+          <img src="assets/icons/mail.svg" alt="Email icon" />
+          <a href="mailto:ag.atharv84@gmail.com">Email</a>
+        </p>
       </div>
+
+      <!-- Contact Info -->
+      <div class="footer__col">
+        <h4>Contact Information</h4>
+        <p>
+          <span>Location:</span><br>Deep Ganga, Sidcul<br>Haridwar, Uttarakhand<br>India
+        </p>
+        <p>
+          <span>Email:</span><br>
+          <a href="mailto:ag.atharv84@gmail.com">ag.atharv84@gmail.com</a>
+        </p>
+        <p>
+          <span>Phone:</span><br>
+          <a href="tel:+919997070946">+91-9997070946</a>
+        </p>
+      </div>
+
     </div>
 
+    <!-- Copyright -->
+    <div class="footer__bar">
+      <p>© 2025 Atharv Agarwal. All rights reserved. Built with passion and code.</p>
+    </div>
   </footer>
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Scripts -->
+  <script src="canvas.js" defer></script>
   <script src="scripts.js" defer></script>
 </body>
 
