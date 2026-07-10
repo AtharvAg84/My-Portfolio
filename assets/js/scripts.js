@@ -174,7 +174,7 @@
   // ============================================================
   function initScrollAnimations() {
     const targets = document.querySelectorAll(
-      ".timeline-content, .portfolio__card1, .projects__card, .gallary__col img"
+      ".timeline-content, .portfolio__card1, .projects__card, .gallery__col img"
     );
 
     if (!("IntersectionObserver" in window)) {
